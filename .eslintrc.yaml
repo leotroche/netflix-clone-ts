@@ -1,0 +1,17 @@
+# .eslintrc.yaml
+
+extends:
+  - standard-with-typescript
+  - standard-jsx
+
+ignorePatterns:
+  - vite.config.ts
+
+parserOptions:
+  project: tsconfig.json
+
+rules:
+  comma-dangle: off
+  space-before-function-paren: off
+  '@typescript-eslint/comma-dangle': off
+  '@typescript-eslint/space-before-function-paren': off
